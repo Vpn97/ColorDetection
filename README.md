@@ -1,5 +1,5 @@
 <img src="https://github.com/Vpn97/ColorDetection/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="35">
-#BlindVision - Color Detection
+# BlindVision - Color Detection
 
 <br>Android Color Detection Application using Camera API
 
