@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.databinding:databinding-adapters:3.6.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f8b560d990ea4abf79983052fa2fb922\databinding-adapters-3.6.0-alpha05\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:3.6.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0fc63d104d4736dbb9f67207c3b79bed\databinding-runtime-3.6.0-alpha05\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\514b34dadbf8e5520ce78c9418b31f25\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -39,27 +39,43 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Dell\.gradle\caches\
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\05ae3bbdb744f659b205d5d2b4e34c10\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9c58b200899a47e839086a435f1e7d30\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b2df145f86f645462bd23edcb3a2c570\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:4:5-38
 		INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml
 		INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml
-		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml
-		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:5:22-62
+uses-feature#android.hardware.camera
+ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:6:5-60
+	android:name
+		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:6:19-57
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:9:22-68
 application
-ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:6:5-21:19
+ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:11:5-25:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0a5e1b036768b77b325f9c9fff6932cd\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0a5e1b036768b77b325f9c9fff6932cd\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\562dc0bf5271c61f65ec6c64ea84320f\core-1.1.0\AndroidManifest.xml:24:5-89
@@ -69,33 +85,31 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\De
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\562dc0bf5271c61f65ec6c64ea84320f\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:8:9-41
-	android:fullBackupContent
-		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:12:9-37
+		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:13:9-41
 	tools:ignore
-		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:13:9-60
+		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:17:9-60
 	android:roundIcon
-		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:9:9-48
+		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:14:9-48
 	android:icon
-		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:12:9-43
 	android:theme
-		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:16:9-40
 activity#com.apkzube.blindvision.Dashboard
-ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:14:9-20:20
+ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:18:9-24:20
 	android:name
-		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:14:19-44
+		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:18:19-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\College Study\ApkZube\BlindVision\Code\app\src\main\AndroidManifest.xml

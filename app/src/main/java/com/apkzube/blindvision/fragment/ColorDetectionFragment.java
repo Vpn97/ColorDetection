@@ -2,14 +2,11 @@ package com.apkzube.blindvision.fragment;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.PorterDuff;
 import android.hardware.Camera;
 import android.os.AsyncTask;
 import android.os.Bundle;
-
-import androidx.databinding.DataBindingUtil;
-import androidx.fragment.app.Fragment;
-
 import android.util.Base64;
 import android.util.Log;
 import android.view.Gravity;
@@ -18,6 +15,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.widget.FrameLayout;
+
+import androidx.databinding.DataBindingUtil;
+import androidx.fragment.app.Fragment;
 
 import com.apkzube.blindvision.Dashboard;
 import com.apkzube.blindvision.R;
@@ -44,11 +44,11 @@ public class ColorDetectionFragment extends Fragment implements
 
     private FragmentColorDetectionBinding mBinding;
     private Camera mCamera;
-    protected boolean mIsPortrait;
-    protected CameraColorPickerPreview mCameraPreview;
-    protected CameraAsyncTask mCameraAsyncTask;
-    protected int mSelectedColor;
-    protected String action = null;
+    private boolean mIsPortrait;
+    private CameraColorPickerPreview mCameraPreview;
+    private CameraAsyncTask mCameraAsyncTask;
+    private int mSelectedColor;
+    private String action = null;
     private FrameLayout mPreviewContainer;
 
     public ColorDetectionFragment() {
@@ -66,6 +66,10 @@ public class ColorDetectionFragment extends Fragment implements
         mBinding = DataBindingUtil.
                 inflate(inflater, R.layout.fragment_color_detection, container, false);
 
+        Intent intent = getActivity().getIntent();
+        if (intent != null)
+            action = intent.getAction();
+
         allocation();
         setEvent();
 
@@ -74,6 +78,7 @@ public class ColorDetectionFragment extends Fragment implements
 
     private void allocation() {
         ctx=getContext();
+        mIsPortrait = getResources().getBoolean(R.bool.is_portrait);
         mPreviewContainer=mBinding.activityColorPickerPreviewContainer;
     }
 
@@ -99,7 +104,7 @@ public class ColorDetectionFragment extends Fragment implements
         }
     }
 
- 
+
 
     private void animatePickedColor(int pickedColor) {
 
@@ -115,7 +120,7 @@ public class ColorDetectionFragment extends Fragment implements
             String colorName=colorNameBuilder.getColorName(
                     colorNameBuilder.initColor(getActivity().getAssets().open("ntc.json")),hexcode);
 
-
+            Dashboard.speechNow(colorName);
             mBinding.txtColorName.setText(colorName+" : "+hexcode);
 
             Log.d("BlindVision", "setEvent: "+colorName);
