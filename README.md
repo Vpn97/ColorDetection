@@ -1,7 +1,6 @@
 <img src="https://github.com/Vpn97/ColorDetection/blob/master/screenshort/logo_1.png" width="100"><br/>
 # BlindVision - Color Detection
-
-<br>Android Color Detection Application using Camera API
+Android Color Detection Application using Camera API
 
 # Previews
 <img src="https://github.com/Vpn97/ColorDetection/blob/master/screenshort/1.png" width="215"  style="padding: 20px"><img src="https://github.com/Vpn97/ColorDetection/blob/master/screenshort/2.png" width="215"  style="padding: 20px"><br/>
